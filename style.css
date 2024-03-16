@@ -1,0 +1,39 @@
+body {
+    background: linear-gradient(-45deg, #ffb6c1, #A559DD, #000000, #000000);
+    background-size: 400% 400%;
+    animation: gradient 10s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+h1{color: #a35b6a;
+ font-family: serif; 
+font-size: 50px;
+padding-left: 5px;
+margin-left: 50px;
+    border: 10px;
+}
+h2{color:blueviolet;
+    font-family: fantasy; 
+    font-size: 35px;
+}
+p{color:darksalmon;
+    font-size: 40px;
+    font-family: fantasy;
+}
+a{color: aliceblue;
+font-size: 20px;
+text-decoration: none;
+}
+button{background-color: darkmagenta;
+width: 150px;}
+img{margin: 150px;}
